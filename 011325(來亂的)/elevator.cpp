@@ -19,13 +19,5 @@ int main() {
             total += 3*(l[i+1]-l[i]);
         }
     }
-    /*
-    // last
-    if (l[times-2] > l[times-1]) {//下樓
-        total += 2*(l[times-2]-l[times-1]);
-    } else {
-        total += 3*(l[times-1]-l[times-2]);
-    }
-    */
     cout << total;
 }
